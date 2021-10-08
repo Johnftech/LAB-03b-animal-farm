@@ -29,6 +29,21 @@ h1 {
     font-weight: bold;
 }
 
+.animal-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+}
+.image-container {
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    
+}
+
+
 footer {
     background-color: #FAF0EA;
     padding: 10px;

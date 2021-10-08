@@ -13,18 +13,36 @@
 
 <body>
     <header>
-        <h1>My App</h1>
-        <img src="assets/big-logo.png" />
+        <h1>Listen to these endagered animals</h1>
+        <img src="assets/big-logo.png"/>
     </header>
     
     <main>
 
-        Make a Web App!
-        
+        <section class="image-container">
+            <div class="animal-image">
+                <img src="./assets/redwolf.jpeg" id="wolf-image" alt="red wolf looking at camera">
+            </div>
+
+            <div class="animal-image">
+                <img src="./assets/california-condor.jpeg" id="condor-image" alt="condor flying in the sky">
+            </div>
+    
+            <div class="animal-image">
+                <img src="./assets/florida-panther.jpeg" id="panther-image" alt="florida panther laying down">
+            </div>
+        </section>
+
+        <div>
+            <audio id="wolf-sound" src="./assets/redwolf-audio.mp3"></audio>
+            <audio id="condor-sound" src="./assets/condor-sound.mp3"></audio>
+            <audio id="panther-sound" src="./assets/panther-sound.mp3"></audio>  
+        </div>
+
     </main>
 
     <footer>
-        &copy; 2021 Alchemy Code Lab
+        &copy; Johnathon Flores
     </footer>
 
     <script type="module" src="./app.js"></script>
